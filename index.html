@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+    <section class="calculator-section">
+        <div class="container"><h3 class="center-align pink-text">Calculator</h3></div>
+          <div class="calculator-box #eeeeee grey lighten-5 z-depth-5">
+                <div class="col s12 m12">
+                    <input  value="" type="text" id="output">
+                </div>
+                <div class="col s3"><button value="9" onclick="return display('9')" class="btn-floating btn-large waves-effect waves-light red z-depth-3">9</button></div>
+                <div class="col s3"><button value="8" onclick="return display('8')" class="btn-floating btn-large waves-effect waves-light red z-depth-3">8</button></div>
+                <div class="col s3"><button value="7" onclick="return display('7')" class="btn-floating btn-large waves-effect waves-light red z-depth-3">7</button></div>
+                <div class="col s3"><button value="/" onclick="return display('/')" class="btn-floating btn-large waves-effect waves-light grey z-depth-3">/</button></div>
+        
+                <div class="col s3"><button value="6" onclick="return display('6')" class="btn-floating btn-large waves-effect waves-light red z-depth-3">6</button></div>
+                <div class="col s3"><button value="5" onclick="return display('5')" class="btn-floating btn-large waves-effect waves-light red z-depth-3">5</button></div>
+                <div class="col s3"><button value="4" onclick="return display('4')" class="btn-floating btn-large waves-effect waves-light red z-depth-3">4</button></div>
+                <div class="col s3"><button value="*" onclick="return display('*')" class="btn-floating btn-large waves-effect waves-light grey z-depth-3">x</button></div>
+        
+                <div class="col s3"><button value="3" onclick="return display('3')" class="btn-floating btn-large waves-effect waves-light red z-depth-3">3</button></div>
+                <div class="col s3"><button value="2" onclick="return display('2')" class="btn-floating btn-large waves-effect waves-light red z-depth-3">2</button></div>
+                <div class="col s3"><button value="1" onclick="return display('1')" class="btn-floating btn-large waves-effect waves-light red z-depth-3">1</button></div>
+                <div class="col s3"><button value="-" onclick="return display('-')" class="btn-floating btn-large waves-effect waves-light grey z-depth-3">-</button></div>
+        
+                <div class="col s3"><button onclick="return clearScreen()" class="btn-floating btn-large waves-effect waves-light grey z-depth-3">AC</button></div>
+                <div class="col s3"><button onclick="return display('0')" value="0" class="btn-floating btn-large waves-effect waves-light red z-depth-3">0</button></div>
+                <div class="col s3"><button onclick="return display('+')" value="+" class="btn-floating btn-large waves-effect waves-light grey z-depth-3">+</button></div>
+                <div class="col s3"><button onclick="return calculate()" class="btn-floating btn-large waves-effect waves-light grey z-depth-3">=</button></div>
+       
+            </div>
+    </section>
+    <script src="calulate.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
+</html>

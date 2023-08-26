@@ -1,0 +1,36 @@
+.s3{
+    margin: 5px;
+    padding: 5px;
+}
+
+.calculator-box{
+    padding: 20px;
+    height: min-content;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.calculator-section{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+input[type="text"]{
+    padding: 5px !important;
+    width: 280px !important;
+    height: min-content;
+    font-size: 30px !important;
+    font-weight: 400;
+    border-style: solid !important;
+    border-color: teal !important;
+    text-align: right !important;
+}
+#output{
+    width: 300px;
+}
